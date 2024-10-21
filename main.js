@@ -87,6 +87,26 @@
 // }}
 // console.log(seasonIdentification(11))
 
+function menuSelection(selected){
+  switch(selected){
+    case 1 : {
+      return "Option 1 selected"
+      break
+    }
+    case 2 : {
+      return "Option 2 selected"
+      break
+    }
+    case 3 : {
+      return "Option 3 selected"
+      break
+    }
+    default: {
+      return "Invalid choice"
+      break
+  }
+}}
+
 
 /****************************/
 // Our code here. Don't touch!
