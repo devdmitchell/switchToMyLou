@@ -1,7 +1,7 @@
 /******************************/
 //Your Code Here 
 
-// function dayOfTheWeek(day){
+// function dayOfWeek(day){
 //   switch(day){
 //     case 1 : {
 //       return "Monday"
@@ -32,9 +32,9 @@
 //   break
 // }
 // }}
-// console.log(dayOfTheWeek(2))
+// console.log(dayOfWeek(2))
 
-// function seasonIdentification(season){
+// function identifySeason(season){
 //   switch(season){
 //     case 1 : {
 //       return "Winter"
@@ -85,7 +85,7 @@
 //     break
 //   }
 // }}
-// console.log(seasonIdentification(11))
+// console.log(identifySeason(11))
 
 function menuSelection(selected){
   switch(selected){
@@ -106,6 +106,7 @@ function menuSelection(selected){
       break
   }
 }}
+console.log(menuSelection())
 
 
 /****************************/
